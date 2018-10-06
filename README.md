@@ -1,7 +1,24 @@
 # Gitlab CI Docker Runner
 
     Ondrej Sika <ondrej@ondrejsika.com>
-    https://gitlab.sikahq.com/infrastructure/sikahq-gitlab-runner
+    https://github.com/ondrejsika/gitlab-ci-runner
 
 Bootstrap scripts for Gitlab CI Docker Runner.
 
+## Create Runner (in Docker)
+
+```
+./create-runner.sh
+```
+
+## Register Runner to Gitlab
+
+```
+./register-runner.sh <gitlab_url> <token> [<runner name>]
+```
+
+For examle
+
+```
+./register-runner.sh https://mygitlab.com xxxx runner01
+```
