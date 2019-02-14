@@ -4,7 +4,7 @@ GITLABCI_URL=$1
 GITLABCI_TOKEN=$2
 RUNNER_NAME=${3:-$(hostname)}
 
-docker exec -ti gitlab-runner gitlab-ci-multi-runner register \
+docker exec gitlab-runner gitlab-runner register \
    --non-interactive \
    --url $GITLABCI_URL \
    --registration-token $GITLABCI_TOKEN \
