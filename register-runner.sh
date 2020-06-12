@@ -10,6 +10,7 @@ docker exec gitlab-runner gitlab-runner register \
    --registration-token $GITLABCI_TOKEN \
    --name $RUNNER_NAME \
    --executor docker \
+   --docker-pull-policy if-not-present \
    --docker-image docker:git \
    --docker-volumes '/var/run/docker.sock:/var/run/docker.sock' \
    --docker-volumes '/builds:/builds'
