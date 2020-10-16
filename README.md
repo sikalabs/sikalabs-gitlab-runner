@@ -3,7 +3,7 @@
     Ondrej Sika <ondrej@ondrejsika.com>
     https://github.com/ondrejsika/ondrejsika-gitlab-runner
 
-Bootstrap scripts for Gitlab CI Docker Runner.
+Bootstrap scripts for my Gitlab Runner with Docker support.
 
 ## Create Runner (in Docker)
 
