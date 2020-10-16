@@ -1,7 +1,7 @@
-# Gitlab CI Docker Runner
+# ondrejsika-gitlab-runner
 
     Ondrej Sika <ondrej@ondrejsika.com>
-    https://github.com/ondrejsika/gitlab-ci-runner
+    https://github.com/ondrejsika/ondrejsika-gitlab-runner
 
 Bootstrap scripts for Gitlab CI Docker Runner.
 
