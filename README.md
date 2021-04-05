@@ -1,4 +1,4 @@
-# ondrejsika-gitlab-runner
+# sikalabs-gitlab-runner
 
     Ondrej Sika <ondrej@ondrejsika.com>
     https://github.com/ondrejsika/ondrejsika-gitlab-runner
