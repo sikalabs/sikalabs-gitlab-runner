@@ -13,5 +13,5 @@ docker exec gitlab-runner gitlab-runner register \
    --docker-pull-policy if-not-present \
    --docker-image docker:git \
    --docker-volumes '/var/run/docker.sock:/var/run/docker.sock' \
-   --docker-volumes '/builds:/builds'
-
+   --docker-volumes '/builds:/builds' \
+   --docker-volumes '/etc/hosts:/etc/hosts'
