@@ -1,3 +1,11 @@
+> **⚠️⚠️⚠️ Deprecated in favor of `slu gitlab-ci setup-runner` ⚠️⚠️⚠️**
+
+Use [slu](https://github.com/sikalabs/slu) instead of this repository.
+
+```
+slu gitlab-ci setup-runner --gitlab-url <url> --registration-token <token> --concurrency <concurrency>
+```
+
 # sikalabs-gitlab-runner
 
     Ondrej Sika <ondrej@ondrejsika.com>
